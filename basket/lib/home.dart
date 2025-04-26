@@ -419,7 +419,7 @@ class _HomeState extends State<Home> {
             child: Text(
               'Result',
               style: TextStyle(
-                fontSize: 18,
+                fontSize: 15,
                 color: const Color.fromARGB(255, 0, 0, 0),
                 fontWeight: FontWeight.bold,
               ),
