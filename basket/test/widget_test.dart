@@ -28,3 +28,17 @@ void main() {
     expect(find.text('1'), findsOneWidget);
   });
 }
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(title: const Text('Basketball Points')),
+        body: const Center(child: Text('Welcome to Basketball Points App!')),
+      ),
+    );
+  }
+}
